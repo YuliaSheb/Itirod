@@ -17,3 +17,14 @@ The ability to view the total amount of time and plants grown
 At the end of the timer , the plant that you have grown and interesting facts about it are shown
 
 The possibility of receiving awards when certain conditions are met
+
+`<img width="374" alt="image" src="https://user-images.githubusercontent.com/79199794/230599379-bc55e60c-efdd-4db3-b472-33322408638c.png">
+
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/79199794/230599455-3c24de92-d4e8-4523-9b2a-efd193bf189f.png">
+
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/79199794/230599523-6f676b65-2d8c-474a-9e07-68367a0d4a24.png">
+
+<img width="372" alt="image" src="https://user-images.githubusercontent.com/79199794/230599572-66c23b36-a90f-4c7a-896d-63de59a49b6f.png">
+
+<img width="376" alt="image" src="https://user-images.githubusercontent.com/79199794/230599623-37ecfdb3-ee2b-4064-b43a-7896fcdc6e61.png">
+
