@@ -1,0 +1,103 @@
+body {
+    max-width: 1400px;
+    background-color: hsl(163, 28%, 25%);
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    position: sticky;
+}
+.logo{
+    max-width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.my_site{
+    position: relative;
+    right: 20px;
+    left: 10px;
+    top: -20px;
+    display: inline;
+    font-size: 38px;
+}
+nav {
+    max-width: 1150px;
+    padding: 0 50px;
+    overflow: auto;
+    font-family: 'Playfair Display';
+    font-size: 34px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 580px;
+    top: -60px;
+    display: inline;
+}
+.proc-img{
+    max-width: 280px;
+    height: 80%;
+    position: relative;
+    left: 40%;
+    bottom: 20%;
+}
+main{
+    position: relative;
+    top: 50px;
+}
+.process-image{
+    overflow: hidden;
+}
+.timer{
+    position: relative;
+    left:42%;
+}
+.timer__items {
+    display: flex;
+    font-size: 48px;
+  }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+  }
+@media (max-width: 1230px){
+    .timer{
+        position: relative;
+        left:8%;
+    }
+    .proc-img{
+        max-width: 280px;
+        height: 80%;
+        position: relative;
+        left: 4%;
+    }
+}

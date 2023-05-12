@@ -1,0 +1,308 @@
+body {
+    max-width: 1400px;
+    background-color: hsl(163, 28%, 25%);
+}
+
+main{
+    text-align: center;
+}
+.earth {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    position: relative;
+    
+}
+
+.first-block{
+    width: 100%;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+}
+
+.my_site{
+    position: relative;
+    right: 20px;
+    left: 70px;
+    top: -60px;
+    display: inline;
+    font-size: 38px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 0 0 0px;
+    padding: 0;
+  }
+  
+li {
+    float: left;
+}
+
+nav {
+    max-width: 1150px;
+    padding: 0 50px;
+    overflow: auto;
+    font-family: 'Playfair Display';
+    font-size: 34px;
+}
+
+.logo{
+    max-width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+nav a{
+    width: 100px;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 650px;
+    top: -60px;
+    display: inline;
+}
+
+.nav-button{
+   display: none; 
+}
+
+h1{
+    text-decoration: underline;
+    color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 28px;
+}
+
+.timer-block {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.timer-block-focus{
+    position: relative;
+    /* left: 400px; */
+    width: 50%;
+    text-align: center;
+    /* top: -40px; */
+}
+
+.timer-block-break{
+    position: relative;
+    /* left: 820px; */
+    width: 50%;
+    text-align: center;
+    /* top: -145px; */
+}
+
+.timer{
+    display: none;
+}
+
+form {
+    display: block;
+}
+
+.timer-settings{
+    display: inline-block;
+    color: aliceblue;
+}
+
+.time-focus{
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    position: relative;
+    top: -20px
+}
+
+.time-break{
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    position: relative;
+    top: -20px;
+}
+
+p{
+    display: inline;
+}
+
+.time-hours{
+    display: inline-block;
+}
+
+.time-minutes{
+    display: inline-block;
+}
+
+.first{
+    display: inline-block;
+}
+
+.second{
+    display: inline-block;
+}
+
+.change{
+    padding: 15px 130px;
+    background-color: #2F5349;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    position: relative;
+    top: 40px;
+}
+.avatar{
+    border-radius: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    position: relative;
+    box-shadow: 0px 10px 15px 10px #000;
+}
+.tree-val{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    position: relative;
+    right: 35px;
+}
+.time-val{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+}
+.info-profile{
+    display: block;
+    position: relative;
+    top: 180px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 35px;
+}
+.value{
+    position: relative;
+    top: 80px;
+}
+.infa{
+    display: grid;
+    grid-template-columns: 400px 450px 300px;
+}
+.tree-value{
+    max-width: 70px;
+    height: 70px;
+}
+.time-value{
+    max-width: 70px;
+    height: 70px;
+}
+.form-box{
+    width: 400px;
+    padding: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    box-shadow: -15px 53px 68px -9px rgba(0, 0, 0, 0);
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    top: 250px;
+    transform: translateY(-50%);
+    opacity: 0.4;
+    text-align: center;
+}
+
+.form-box input[type = "text"],.form-box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    border-bottom: 2px solid #fdfbd9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    transition: 0.25s;
+    color: #bababa;
+}
+
+.form-box button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #fdfbd9;
+    color: #bababa;
+    font-size: 15px;
+    width: 230px;
+    height: 30px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+@media (max-width: 1230px){
+    :root{
+        --index: calc(1vw+1vh)
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .infa{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .info-profile{
+        position: relative;
+        top:0px;
+    }
+    .value{
+        position: relative;
+        top: 15px;
+    }
+
+    .nav-button {
+        position: absolute; 
+        left: calc(var(--index)*75);
+        /* bottom: 50px;
+        width: 40px;
+        height: 40px; */
+       background-color: #2F5349;
+       top: 14%;
+       right: 0;
+       display: block; 
+       border: 0;
+     
+    }
+    .button-menu{
+        position: relative;
+        width: 50px;
+        height: 40px;
+    }
+}

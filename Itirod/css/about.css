@@ -1,0 +1,81 @@
+body {
+    max-width: 1400px;
+    background-color: hsl(163, 28%, 25%);
+}
+header{
+    width: 100%;
+    position: sticky;
+}
+.logo{
+    max-width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.my_site{
+    position: relative;
+    right: 20px;
+    left: 10px;
+    top: -20px;
+    display: inline;
+    font-size: 38px;
+}
+nav {
+    max-width: 1150px;
+    padding: 0 50px;
+    overflow: auto;
+    font-family: 'Playfair Display';
+    font-size: 34px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 580px;
+    top: -60px;
+    display: inline;
+}
+.inform{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+h1{
+    text-align: center;
+}
+article{
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+article h1{
+    font-size: 38px;
+    color: #fdfbd9;
+    font-style: oblique;
+}
+.image-main{
+    width: 150px;
+    height: 120px;
+    position: relative;
+    align-items: center;
+    border-radius: 100%;
+}
+main{
+    background-color: hsl(161, 21%, 42%);
+}
+@media (max-width: 1230px){
+    .inform{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

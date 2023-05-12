@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main page</title>
+        <link rel="stylesheet" href="./css/mystyle.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul class="nav-list">
+                    <li><a class = "my_site" href="./main.html">My site</a></li>
+                    <li><a href="./about.html">About us</a></li>
+                    <li><a href="./profile.html">My profile</a></li>
+                </ul>
+                <button class="nav-button">
+                    <img class="button-menu" src="./images/menu.png" alt="menu-hamburger">
+                </button>
+            </nav>
+        </header>
+        <main>
+            <section class="first-block">
+                <img class="earth" src="images/earth.png" alt="planet">
+            </section>
+            <div class="timer-block">
+                <section class="timer-block-focus">
+                    <h1 id="focus">Focus</h1>
+                    <section class="time-focus">
+                        <section class="time-hours">
+                            <div class="first"><div class="number">0</div></div>
+                            <div class="second"><div class="number">0</div></div>
+                        </section>
+                        <p>:</p>
+                        <section class="time-minutes">
+                            <div class="first"><div class="number">0</div></div>
+                            <div class="second"><div class="number">0</div></div>
+                        </section>
+                    </section>
+                </section>
+                <section class="timer-block-break">
+                    <h1>Break</h1>
+                    <section class="time-break">
+                        <section class="time-hours">
+                            <div class="first"><div class="number">0</div></div>
+                            <div class="second"><div class="number">0</div></div>
+                        </section>
+                        <p>:</p>
+                        <section class="time-minutes">
+                            <div class="first"><div class="number">0</div></div>
+                            <div class="second"><div class="number">0</div></div>
+                        </section>
+                    </section>
+                </section>
+            </div>
+            
+            <button type="button" class="start" onclick="document.location='./process.html'">START</button>
+        </main>
+    </body>
+</html>
