@@ -9,18 +9,31 @@
 
     <link rel="stylesheet" href="./css/enter.css">
     <script src="./javascript/app.js" defer></script>
+    <script src="./javascript/register.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
     <section class="main-enter" style="background-image: url(images/dungeon.jpg);">
         <form action="enter.html" class="form-box" method="post">
-            <input type="text" name="" placeholder="Name">
-            <input type="text" name="" placeholder="Surname">
-            <input type="text" name="" placeholder="Username">
-            <input type="password" name="" placeholder="Password">
-            <input type="file" name="photo" multiple accept="image/*">
-            <button type="button" class="login" onclick="document.location='./enter.html'">Register</button>
+            <input type="text" name="name" class="user-name" placeholder="Name">
+            <input type="text" name="surname" class="user-surname" placeholder="Surname">
+            <input type="text" name="username" class="user-username" placeholder="Username">
+            <input type="password" name="password" class="user-password" placeholder="Password">
+            <div class="gender-container">
+                <label>
+                  <input type="radio" name="gender" value="male" class="male" required>
+                  Male
+                </label>
+              
+                <label>
+                  <input type="radio" name="gender" value="female" class="female">
+                  Female
+                </label>
+              </div>
+            <!-- onclick="document.location='./enter.html'" -->
+            <button type="button" class="login" >Register</button>
         </form>
     </section>
-    
 </body>
 </html>

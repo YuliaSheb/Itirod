@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main page</title>
         <link rel="stylesheet" href="./css/profile.css">
+        <script src="./javascript/profile.js" defer></script>
     </head>
     <body>
         <header>
@@ -23,19 +24,21 @@
         <main>
             <section class="infa">
                 <article class="info-profile">
-                    <p>Name Surname</p><br>
+                    <p id="name">Name</p>
+                    <p id="surname">Surname</p>
                 </article>
                 <section>
                     <img class="avatar" src="images/avatar.png" alt="avatar"><br>
                 </section>
                 <article class="value">
                     <section class="tree-val">
-                        <img class="tree-value" src="images/logo.png" alt="tree">
-                        <p>0</p>
+                        <img class="tree-value" src="images/tree_profile.png" alt="tree">
+                        <p id="trees">0</p>
                     </section><br>
                     <section class="time-val">
-                        <img class="time-value" src="images/logo.png" alt="time">
-                        <p>0 h 0 m</p>
+                        <img class="time-value" src="images/time-profile.png" alt="time">
+                        <p id="times_h">0</p><p>h</p>
+                        <p id="times_m">0</p><p>m</p>
                     </section>
                 </article>
             </section>

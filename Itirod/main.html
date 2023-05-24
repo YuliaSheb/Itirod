@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Main page</title>
         <link rel="stylesheet" href="./css/mystyle.css">
+        <script src="./javascript/main.js" defer></script>
     </head>
     <body>
         <header>
@@ -30,13 +31,17 @@
                     <h1 id="focus">Focus</h1>
                     <section class="time-focus">
                         <section class="time-hours">
-                            <div class="first"><div class="number">0</div></div>
-                            <div class="second"><div class="number">0</div></div>
-                        </section>
-                        <p>:</p>
-                        <section class="time-minutes">
-                            <div class="first"><div class="number">0</div></div>
-                            <div class="second"><div class="number">0</div></div>
+                            <div class="first">
+                                <div class="number">
+                                    <select id="whatTimes">
+                                        <option value="100000">00:05</option>
+                                        <option value="1800000">00:30</option>
+                                        <option value="3600000">01:00</option>
+                                        <option value="5400000">01:30</option>
+                                        <option value="7200000">02:00</option>
+                                    </select>
+                                </div>
+                            </div>
                         </section>
                     </section>
                 </section>
@@ -44,19 +49,21 @@
                     <h1>Break</h1>
                     <section class="time-break">
                         <section class="time-hours">
-                            <div class="first"><div class="number">0</div></div>
-                            <div class="second"><div class="number">0</div></div>
-                        </section>
-                        <p>:</p>
-                        <section class="time-minutes">
-                            <div class="first"><div class="number">0</div></div>
-                            <div class="second"><div class="number">0</div></div>
+                            <div class="first"><div class="number">
+                                <select id="whatBreaks">
+                                    <option value="300000">00:05</option>
+                                    <option value="1800000">00:30</option>
+                                    <option value="3600000">01:00</option>
+                                    <option value="5400000">01:30</option>
+                                    <option value="7200000">02:00</option>
+                                </select>
+                            </div></div>
                         </section>
                     </section>
                 </section>
             </div>
             
-            <button type="button" class="start" onclick="document.location='./process.html'">START</button>
+            <button type="button" class="start">START</button>
         </main>
     </body>
 </html>

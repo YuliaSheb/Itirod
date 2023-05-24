@@ -44,9 +44,76 @@ nav a{
     top: -60px;
     display: inline;
 }
-section article{
-    max-width: 750;
-    height: 894;
+section{
+    max-width: 500px;
+    height: 490px;
     background: rgba(255, 255, 255, 0.25);
-    border-radius: 124px 400px 0px 0px;
+    border-radius: 120px 350px 0px 0px;
+    color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+h1{
+    text-decoration: underline;
+}
+.carrot{
+    border-radius: 100%;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    position: relative;
+    box-shadow: 0px 5px 5px 5px #000;
+    top:140px;
+    right:155px;
+}
+.first-article{
+    display: inline;
+}
+.first-article h3{
+    position: relative;
+    left:40px;
+    top:20px;
+}
+article{
+    position: relative;
+    bottom: 60px;
+}
+
+@media (max-width: 1230px){
+    section{
+        font-size: 26px;
+        position: relative;
+        left:0%;
+    }
+    h1{
+        text-decoration: underline;
+    }
+    .carrot{
+        border-radius: 100%;
+        max-width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80px;
+        position: relative;
+        box-shadow: 0px 5px 5px 5px #000;
+        top:120px;
+        right:115px;
+    }
+    .first-article{
+        display: inline;
+    }
+    .first-article h3{
+        font-size: 22px;
+        position: relative;
+        left:20px;
+        top:20px;
+    }
+    article{
+        position: relative;
+        bottom: 60px;
+    }
 }

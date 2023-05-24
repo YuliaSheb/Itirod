@@ -146,3 +146,33 @@ body{
     transition: 0.25s;
     cursor: pointer;
 }
+.gender-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .male,
+  .female {
+    margin-right: 10px;
+  }
+  
+  .male::before,
+  .female::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-right: 5px;
+  }
+  
+  .male::before {
+    background-color: blue;
+  }
+  
+  .female::before {
+    background-color: pink;
+  }

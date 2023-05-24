@@ -1,6 +1,6 @@
 var indexVal = 0;
 function slideShow(){
-    setTimeout(slideShow,1000);
+    setTimeout(slideShow,2000);
     var x;
     const img=document.getElementsByClassName("proc-img");
     for(x=0;x<img.length;x++){
@@ -18,10 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // id таймера
     let timerId = null;
     const targetTime = new Date(Date.now() + 600000); // устанавливаем время через 10 минут
-    let diff = localStorage.getItem("Focus");
-    let start_time = parseInt(diff);
-    let start_tree = parseInt(localStorage.getItem("All_tree"));
-    let start_times = parseInt(localStorage.getItem("All_time"));
+    let diff = localStorage.getItem("Breaks");
     // склонение числительных
     function declensionNum(num, words) {
       return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
@@ -29,14 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function countdownTimer() {
       diff -= 1000;
       if (diff <= 0) {
-        start_tree += 1;
-        start_times = start_times + start_time;
-        localStorage.setItem("All_time",start_times);
-        localStorage.setItem("All_tree",start_tree);
         clearInterval(timerId);
         setTimeout(()=>{
-          location.href='./process2.html';
-          },1000)
+            location.href='./end.html';
+            },1000)
       }
       const hours = diff > 0 ? Math.floor(diff / 1000 / 60 / 60) % 24 : 0;
       const minutes = diff > 0 ? Math.floor(diff / 1000 / 60) % 60 : 0;

@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="./css/enter.css">
     <script src="./javascript/app.js" defer></script>
+    <script src="./javascript/enter.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
     <header class="enter-header">
@@ -24,9 +27,9 @@
     </header>
     <section class="main-enter" style="background-image: url(images/dungeon.jpg);">
         <form action="enter.html" class="form-box" method="post">
-            <input type="text" name="" placeholder="Username"><br>
-            <input type="password" name="" placeholder="Password"><br>
-            <button type="button" class="login" onclick="document.location='./main.html'">Login</button>
+            <input type="text" name="" class="user-username" placeholder="Username"><br>
+            <input type="password" name="" class="user-password" placeholder="Password"><br>
+            <button type="button" class="login">Login</button>
             <a href="./registration.html" class="registration">If you don't have an account. Register</a>
         </form>
     </section>
