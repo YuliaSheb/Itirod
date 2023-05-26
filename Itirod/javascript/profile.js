@@ -1,3 +1,10 @@
+const buttonMenu = document.querySelector('.button-menu');
+const navList = document.querySelector('.nav-list');
+
+buttonMenu.addEventListener('click', () => {
+  navList.classList.toggle('show');
+});
+
 const names = localStorage.getItem("Name");
 const surname = localStorage.getItem("Surname");
 const trees = localStorage.getItem("All_tree");
@@ -13,8 +20,8 @@ document.getElementById("trees").textContent = trees;
 document.getElementById("times_h").textContent = hours;
 document.getElementById("times_m").textContent = minutes;
 
-if (gender=="Male"){
+if (gender=="male"){
     const image = document.getElementById("avatar");
-    image.src = "images/avatar.png";
+    image.src = "images/avatar2.png";
     image.alt = "avatar";
 }

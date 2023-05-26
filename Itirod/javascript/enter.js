@@ -1,8 +1,7 @@
-
 const login = document.querySelector('.login');
 login.onclick = (e) => {
     e.preventDefault();
-    // cautch the valu which is type user login page
+
     const email = document.querySelector(".user-username").value;
     const pass = document.querySelector(".user-password").value;
 
@@ -35,8 +34,6 @@ login.onclick = (e) => {
                 'Something is wrong!',
                 'error'
             );
-        }
+        } 
     };
-
-
 };

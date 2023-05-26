@@ -274,6 +274,10 @@ p{
         display: none;
     }
 
+    .nav-list.show {
+        display: block;
+    }
+
     .infa{
         display: grid;
         grid-template-columns: auto;

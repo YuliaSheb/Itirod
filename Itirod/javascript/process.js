@@ -15,9 +15,8 @@ function slideShow(){
 slideShow()
 
 document.addEventListener('DOMContentLoaded', function() {
-    // id таймера
     let timerId = null;
-    const targetTime = new Date(Date.now() + 600000); // устанавливаем время через 10 минут
+    //const targetTime = new Date(Date.now() + 600000); // устанавливаем время через 10 минут
     let diff = localStorage.getItem("Focus");
     let start_time = parseInt(diff);
     let start_tree = parseInt(localStorage.getItem("All_tree"));
