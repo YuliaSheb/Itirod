@@ -14,7 +14,7 @@ The ability to set a timer
 
 The ability to view the total amount of time and plants grown
 
-At the end of the timer , the plant that you have grown and interesting facts about it are shown
+At the end of the timer, the plant that you have grown and interesting facts about it are shown
 
 The possibility of receiving awards when certain conditions are met
 
